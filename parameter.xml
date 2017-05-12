@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameterList>
+	
+	<!-- 测试过程中需要用到的参数 -->
+    <!-- 九州通 -->
+	<jiuzhoutong>
+		<!-- 用户登录 -->
+		<username>15918715951</username>
+		<password>c458v88</password>
+	</jiuzhoutong>
+	
+	<!-- 信用惠 -->
+	<xinyonghui>
+		<!-- 用户登录 -->
+		<loginName>cteattt</loginName>
+		<password>c458v88</password>
+	</xinyonghui>
+	
+</parameterList>

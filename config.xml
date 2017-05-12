@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 标签名不要随意修改，只能修改标签里面的内容 -->
+<configuration>
+
+	<!-- Chrome配置 -->
+	<chrome_setting>
+		<driverinfo>
+			<drivername>webdriver.chrome.driver</drivername>
+			<path>C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe</path>
+		</driverinfo>
+		<bininfo>
+			<binname>webdriver.chrome.bin</binname>
+			<path>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</path>
+		</bininfo>
+	</chrome_setting>
+	
+	<!-- 截图存放的位置 -->
+	<photopath>
+	 	<path>F:\截图\巡检\</path>
+	 </photopath>
+
+</configuration>

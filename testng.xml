@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="xunjian" preserve-order="true">	
+    <test name="xunjian" preserve-order="true">
+        <classes>
+        <!-- 九州通 -->
+           <class name="com.xunjian.test.JiuzhoutongTest">
+                <methods>
+                	<include name="testLogin"/>
+                 	<time-out>1000</time-out>
+                 	<include name="testGuapaixiaoshouSkip" />
+                 	<time-out>1000</time-out>
+                 	<include name="testYaocaicaigouSkip" />
+                 	<time-out>1000</time-out>
+                 	<include name="testYaocaijinrongSkip" />
+                 	<time-out>1000</time-out>
+                 	<include name="testCangchufuwuSkip" />
+                 	<time-out>1000</time-out>
+                 	<include name="testZhiliangtixiSkip" />
+                  	<time-out>1000</time-out>
+                </methods>
+            </class>
+            
+            <!-- 信用惠 -->
+           <class name="com.xunjian.test.XinyonghuiTest">
+            	<methods>
+            		<include name="testLogin"/>
+            		<time-out>1000</time-out>
+            		<include name="testJifenskip"/>
+            		<time-out>1000</time-out>
+            	</methods>
+            </class>
+            
+        </classes>
+    </test>
+</suite>
